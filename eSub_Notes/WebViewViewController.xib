@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WebViewViewController">
+            <connections>
+                <outlet property="backButton" destination="QYO-RE-zgq" id="gwn-W0-TEO"/>
+                <outlet property="forwardButton" destination="Gih-SZ-H7h" id="svd-rZ-wec"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="NhO-74-mVp" id="sw4-Ii-zyU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NhO-74-mVp">
+                    <rect key="frame" x="4" y="0.0" width="592" height="547"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </webView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYO-RE-zgq">
+                    <rect key="frame" x="27" y="553" width="20" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="dnc-m8-mYk"/>
+                    </constraints>
+                    <state key="normal" image="chevron-left@2x.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gih-SZ-H7h">
+                    <rect key="frame" x="81" y="553" width="20" height="38"/>
+                    <state key="normal" image="chevron-right@2x.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="QYO-RE-zgq" firstAttribute="top" secondItem="NhO-74-mVp" secondAttribute="bottom" constant="6" id="2C6-9W-3uV"/>
+                <constraint firstAttribute="bottom" secondItem="NhO-74-mVp" secondAttribute="bottom" constant="53" id="3Wf-XQ-EDa"/>
+                <constraint firstItem="Gih-SZ-H7h" firstAttribute="top" secondItem="NhO-74-mVp" secondAttribute="bottom" constant="6" id="9I3-DB-6IP"/>
+                <constraint firstItem="NhO-74-mVp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="4" id="D0h-xj-p3V"/>
+                <constraint firstItem="QYO-RE-zgq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="27" id="T6Y-gt-k1U"/>
+                <constraint firstItem="Gih-SZ-H7h" firstAttribute="leading" secondItem="QYO-RE-zgq" secondAttribute="trailing" constant="34" id="Wad-NR-ak4"/>
+                <constraint firstAttribute="bottom" secondItem="QYO-RE-zgq" secondAttribute="bottom" constant="9" id="Zrj-jA-rcg"/>
+                <constraint firstAttribute="trailing" secondItem="NhO-74-mVp" secondAttribute="trailing" constant="4" id="ceZ-Mf-TYE"/>
+                <constraint firstAttribute="bottom" secondItem="Gih-SZ-H7h" secondAttribute="bottom" constant="9" id="oUZ-bH-MY3"/>
+                <constraint firstItem="NhO-74-mVp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="oyl-Hv-ud7"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron-left@2x.png" width="16" height="16"/>
+        <image name="chevron-right@2x.png" width="16" height="16"/>
+    </resources>
+</document>
