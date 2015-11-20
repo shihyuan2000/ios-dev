@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D6847E752F9976E83C49CB060D322F50FE07A040",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "107412EF27CCF805ECAA9E7427BC507D91C19DBA" : 0,
+    "D6847E752F9976E83C49CB060D322F50FE07A040" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "97E6B744-1D95-49D5-B619-BDCC2A26FC88",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "107412EF27CCF805ECAA9E7427BC507D91C19DBA" : "",
+    "D6847E752F9976E83C49CB060D322F50FE07A040" : "ios-dev\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "eSUB",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "eSUB.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/teamesub\/ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "107412EF27CCF805ECAA9E7427BC507D91C19DBA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shihyuan2000\/ios-dev.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D6847E752F9976E83C49CB060D322F50FE07A040"
+    }
+  ]
+}
